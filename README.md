@@ -23,7 +23,7 @@ pip3 install -r requirements.txt
 ### Usage
 
 ```
-compressor.py
+./compressor.py
 ```
 
 #### Optional Arguments
