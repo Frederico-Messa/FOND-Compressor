@@ -72,7 +72,7 @@ if __name__ == "__main__":
     argcomplete.autocomplete(apn)
     apn.parse_args()
 
-    solver = pulp.get_solver(apn.ip_solver_label, msg=False)
+    solver = pulp.getSolver(apn.ip_solver_label, msg=False)
 
     # Parse the input
     mappings: dict[State, Action] = {}
